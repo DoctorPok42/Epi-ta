@@ -1,0 +1,8 @@
+# build
+build/
+
+# clang
+checks.json
+
+# node_modules
+node_modules/

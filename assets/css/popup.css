@@ -1,0 +1,32 @@
+.tab {
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+  border: 2px solid #ececed;
+  border-radius: 8px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.tab p {
+  margin: 0;
+  padding: 0 0.5em;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+.tab .indexTag {
+  color: #2b2b2b;
+}
+
+.tab p span {
+  border-radius: 5px;
+  padding: 0 0.2em;
+  margin: 0 0.2em;
+}
+
+.tab p:hover {
+  background-color: #ececed;
+}

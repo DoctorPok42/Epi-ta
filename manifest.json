@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "Epi TA",
+    "description": "Grabs your Epitech calendar and displays it in your google calendar",
+    "author": "DoctorPok",
+    "version": "1.0.0",
+
+    "icons": {
+        "128": "assets/icons/128.png"
+    },
+
+    "permissions": [
+        "storage",
+        "scripting",
+        "identity"
+    ],
+
+    "host_permissions": [
+        "*://api.epitest.eu/**",
+        "*://my.epitech.eu/*"
+    ],
+
+    "background": {
+        "service_worker": "src/background-wrapper.js"
+    },
+
+    "action": {
+        "default_icon": "assets/icons/128.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["*://my.epitech.eu/*"],
+        "js": ["assets/js/popup.js"],
+        "css": ["assets/css/popup.css"]
+      }
+    ]
+}

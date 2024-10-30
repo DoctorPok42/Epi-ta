@@ -1,0 +1,23 @@
+{
+  "name": "epi-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoctorPok42/Epi-Calendar.git"
+  },
+  "author": "DoctorPok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoctorPok42/Epi-Calendar/issues"
+  },
+  "homepage": "https://github.com/DoctorPok42/Epi-Calendar#readme",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
